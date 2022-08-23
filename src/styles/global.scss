@@ -61,6 +61,9 @@ p{
   color: var(--text);
 }
 @media  (max-width: 600px){
+  h1{
+    font-size: 1.5em;
+  }
   .input-qrcode{
     width: 20em;
   }

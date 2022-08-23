@@ -10,6 +10,7 @@
   *{
     font-family: Poppins ;
     background-color: var(--background);
+    overflow: hidden;
   }
   h1{
     color: var(--primary);
@@ -20,7 +21,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    
   }
   .input-qrcode{
     height: 3em;

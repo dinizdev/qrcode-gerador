@@ -16,7 +16,7 @@ export function QRbox (){
         })
       }
     
-      function handleQrcode(e){
+      function handleQrcode(e:any){
         setLink(e.target.value);
         handleGenerate(e.target.value);
       }

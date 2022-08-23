@@ -52,7 +52,7 @@ export function QRbox (){
       />
       <button className="btn-download" onClick={downloadLink}>Clique para baixar o QRCode</button>
 
-    <p>Feito com amor por Diniz Dev </p>
+    <p>Feito com amor por Diniz Dev ❤</p>
   
    </div>
     )

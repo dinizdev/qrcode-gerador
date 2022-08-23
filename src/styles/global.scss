@@ -3,17 +3,6 @@
     --dark: #00B82E;
     --background: #121214;
     --text: #FFF;
-    --caption: #8D8D99;
-    --gray: #E1E1E6;
-    --background-light: rgba(255, 255, 255, 0.05);
-  }
-  *{
-    font-family: Poppins ;
-    background-color: var(--background);
-    overflow: hidden;
-  }
-  h1{
-    color: var(--primary);
   }
   .container{
     display: flex;
@@ -34,6 +23,7 @@
     border: 1px solid #b6b6b6;
     color: var(--text);
     font-size: 1em;
+    text-transform: lowercase !important;
   }
   .input-qrcode::placeholder{
     font-size: 1.2em;
@@ -62,7 +52,7 @@ p{
 }
 @media  (max-width: 600px){
   h1{
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .input-qrcode{
     width: 20em;

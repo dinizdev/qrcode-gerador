@@ -1,0 +1,61 @@
+:root {
+    --primary: #00B37E;
+    --dark: #00B82E;
+    --background: #121214;
+    --text: #FFF;
+    --caption: #8D8D99;
+    --gray: #E1E1E6;
+    --background-light: rgba(255, 255, 255, 0.05);
+  }
+  *{
+    font-family: Poppins ;
+    background-color: var(--background);
+  }
+  h1{
+    color: var(--primary);
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .input-qrcode{
+    height: 3em;
+    max-width: 40em;
+    border-radius: 8px;
+    width: 100%;
+    margin: 24px 0px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #b6b6b6;
+    color: var(--text);
+    font-size: 1em;
+  }
+  .input-qrcode::placeholder{
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .btn-download{
+    max-width: 40em;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #b6b6b6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--primary);
+  }
+  .btn-download:hover{
+    background-color: var(--dark);
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier();
+  }
+
+p{
+  color: var(--text);
+}

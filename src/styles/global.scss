@@ -3,6 +3,14 @@
     --dark: #00B82E;
     --background: #121214;
     --text: #FFF;
+}  
+  *{
+    font-family: Poppins ;
+    background-color: var(--background);
+    overflow: hidden;
+  }
+  h1{
+    color: var(--primary);
   }
   .container{
     display: flex;

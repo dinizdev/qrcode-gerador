@@ -1,7 +1,5 @@
 # QR-code generator via url input
-## Generator made for teaching purposes using React JS
-
-## Rode localmente
+> Generator made for teaching purposes using React JS
 
 ## Running locally
 

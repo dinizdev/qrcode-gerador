@@ -1,30 +1,31 @@
-# Gerador de QR-code via input 
-## Gerador feito para fins didáticos usando React JS 
+# QR-code generator via url input
+## Generator made for teaching purposes using React JS
 
 ## Rode localmente
 
-1. Clone este repo:
+## Running locally
+
+1. Clone this repo:
 
 ```sh
 $ git clone https://github.com/dinizdev/qrcode-gerador.git
 ```
 
-2. Então abra a pasta do projeto:
+2. Then go to the project's folder:
 
 ```sh
 cd qrcode-gerador
 ```
 
-3. Rode esse comando para instalar as dependências:
+3. Install all dependencies:
 
 ```sh
 npm install
 ```
 
-4. Rode localmente:
+4. Run locally:
 
 ```sh
-npm dev
+npm run dev
 ```
-
 ![QRCODE](https://imgur.com/zurcHjr.png)
